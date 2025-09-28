@@ -1,6 +1,5 @@
 import {
   View,
-  Text,
   KeyboardAvoidingView,
   Platform,
   ScrollView,
@@ -9,11 +8,9 @@ import {
   Image,
 } from "react-native";
 import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { Slot } from "expo-router";
 import { images } from "@/constants";
-import CustomButton from "@/components/CustomButton";
-import CustomInput from "@/components/CustomInput";
+
 
 export default function _Layout() {
   return (
